@@ -1,0 +1,24 @@
+{
+  "name": "task-api-js",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "babel-node src/main.js",
+    "start:dev": "nodemon --watch src --exec babel-node src/main.js"
+  },
+  "dependencies": {
+    "@nestjs/common": "^12.1.2",
+    "@nestjs/core": "^12.1.2",
+    "@nestjs/platform-express": "^12.1.2",
+    "reflect-metadata": "^0.2.2",
+    "rxjs": "^7.8.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^8.0.6",
+    "@babel/core": "^8.0.6",
+    "@babel/node": "^8.0.6",
+    "@babel/plugin-proposal-decorators": "^8.0.2",
+    "@babel/preset-env": "^8.0.6",
+    "nodemon": "^3.1.14"
+  }
+}
